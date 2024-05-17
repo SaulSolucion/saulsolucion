@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fdfcfc;
+}
+
+header {
+    background-image: url(images/hero.svg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.menu .logo {
+    font-weight: 700;
+    font-size: 55px;
+    color: #ffffff;
+}
+
+.menu .navbar ul li {
+    font-size: 38px;
+    padding: 20px;
+    color: #ffffff;
+    display: block;
+}
+
+.menu .navbar ul li:hover {
+    color: #1a1b1b;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 55px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    display: flex;
+}
+
+.content {
+    padding: 150px 150px 0 0;
+}
+
+.content h1 {
+    color: #ffffff;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 55px;
+}
+
+.content p {
+    margin-top: 25px;
+    color: #aab1ff;
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.btn-1 {
+    display: inline-block;
+    background-color: rgba(170, 177, 255, 0.3);
+    border: 1px solid #aab1ff;
+    margin: 35px 10px 0 0;
+    padding: 15px 25px;
+    color: #ffffff;
+    border-radius: 28px;
+}
+
+.btn-1:hover {
+    background-color: #aab1ff;
+}
+
+.services {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.services {
+    padding: 133px;
+    margin: 160px 490px 0;
+    box-shadow: 0 0 20px rgba(6, 27, 248, 0.3);
+}
+
+.services img {
+    margin-top: -30px;
+}
+
+.services h3 {
+    font-size: 40px;
+    color: #0e0e0e;
+    margin-bottom: 1px;
+}
+
+.services p {
+    color: #525354;
+    font-size: 20px;
+}
+
+.porfolios {
+    padding: 80px 0;
+    text-align: center;
+    color: #0e0e0e;
+}
+
+.porfolios h2 {
+    font-size: 55px;
+}
+
+.porfolio {
+    display: flex;
+    align-items: center;
+}
+
+.porfolio img {
+    width: 350px;
+}
+
+.porfolio-1 {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.porfolio-1 h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.porfolio-1 p {
+    font-size: 18px;
+    color: #525354;
+    margin-bottom: 25px;
+}
+
+.porfolio-2 {
+    text-align: left;
+}
+
+.porfolio-2 h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
